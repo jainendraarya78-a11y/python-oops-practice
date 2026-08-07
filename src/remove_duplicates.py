@@ -18,9 +18,8 @@ class RemoveDuplicates:
 
     def display_result(self):
         unique_numbers = self.remove_duplicates()
-        print("Original list:", self.numbers)
-        print("Unique list:", unique_numbers)
-
+        print("Original List :", self.numbers)
+        print("Unique List   :", unique_numbers)
 
 def main():
     numbers = [10, 20, 10, 30, 40, 20, 50, 30]
